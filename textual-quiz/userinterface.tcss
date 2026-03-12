@@ -1,0 +1,55 @@
+#score-container {
+    height: 10%;
+    background: $boost;
+}
+
+#score_label, #topscore_label {
+    width: 50%;
+    height: 100%;
+    content-align: center middle;
+    text-style: bold;
+}
+
+#score_label {
+    background: $surface;
+}
+
+#topscore_label {
+    background: $surface;
+}
+
+#question_banner {
+    background: $secondary;
+    height: 30%;
+    content-align: center middle;
+    color: black;
+    border: round white;
+}
+
+#country_display {
+    background: $boost;
+    height: 40%;
+    width: 100%;
+    content-align: center middle;
+    text-style: bold;
+    border: thick round black;
+}
+
+#button_container {
+    layout: horizontal;
+    height: 20%;
+}
+
+Button {
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+
+#left {
+    background: $accent;
+}
+
+#right {
+    background: $primary;
+}
